@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+}
+
+.app--container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+	flex-wrap: wrap;
+	width: 100vw;
+	height: 100vh;
+	margin-top: 40px;
+}
+
+.search--container {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+input {
+	display: inline-block;
+	width: 160px;
+	height: 40px;
+	padding: 5px 10px;
+	font-size: 14px;
+}
+
+button {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 5px 9px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.robot--container {
+	position: relative;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 90%;
+	column-gap: 10px;
+	row-gap: 15px;
+}

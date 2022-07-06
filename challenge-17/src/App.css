@@ -1,0 +1,30 @@
+body {
+	font-size: 25px;
+}
+
+.app--container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.btn--container{
+	display: flex;
+}
+
+button {
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 15px;
+}
+
+input {
+	padding: 6px 12px;
+}
+
+.btn--container button:last-child {
+	margin-left: 8px;
+	font-size: 20px;
+}
